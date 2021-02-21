@@ -28,6 +28,7 @@ MODULE 4
 • Window and Global
 NodeJS Fundamentals
 MODULE 5
+• More on NodeJS Globals
 • Modules and Exports
 • Intro to Built-in Modules
 • OS Module

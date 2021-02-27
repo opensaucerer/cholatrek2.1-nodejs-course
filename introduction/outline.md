@@ -54,12 +54,12 @@ MODULE 9
 • Creating the server
 • Response and Headers
 • Route Handling
-• Serving Kreativel Page
+• Serving NavyBary
 Express Framework: Web Serving Made Elegant
 MODULE 10
 • Creating the server
 • Routes, Methods, and Errors
-• Middleware and Serving Kreativel Page
+• Middleware and Serving NavyBary
 Server-Side Rendering with Express
 MODULE 11
 • What and Why Server-Side Rendering?

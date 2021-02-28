@@ -15,7 +15,9 @@ MODULE 1
 - Variables and Data Types
 - Arrays
 - JSON
+
   MODULE 2
+
 - Conditional Statements
 - Loops
 - Functions

@@ -77,6 +77,7 @@ MODULE 12
 MODULE 13
 • Connecting with Mongoose
 • Schemas and Models
+• Saving Data to the Database
 
 WEEK 5
 Getting Started with Product Design

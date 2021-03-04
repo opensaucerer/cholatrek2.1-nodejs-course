@@ -84,7 +84,7 @@ Getting Started with Product Design
 MODULE 14
 • Introduction to Product Design
 • Setup for Project Wordy
-• Creating the Wordy UI
+• Creating the Wordy UI Wireframe
 MODULE 15
 • Designing the Wordy Frontend
 MODULE 16

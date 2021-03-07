@@ -1,0 +1,38 @@
+<html lang="en">
+  <%- include('../partials/head') %>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="check" viewBox="0 0 16 16">
+        <title>Check</title>
+        <path
+          d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"
+        />
+      </symbol>
+    </svg>
+
+    <div class="container py-3">
+      <%- include('../partials/header') %>
+
+      <main class="post">
+        <div class="container">
+          <h1 class="display-5 fw-bold">Post Title</h1>
+          <p class="col-md-8 fs-4">
+            Wordy is a mini blog that is built with NodeJS on top of the express
+            framework. Wordy allows anyone, like you, to publish blogs without
+            having to undergo any validation. Wordy is a mini blog that is built
+            with NodeJS on top of the express framework. Wordy allows anyone,
+            like you, to publish blogs without having to undergo any validation.
+            Wordy is a mini blog that is built with NodeJS on top of the express
+            framework. Wordy allows anyone, like you, to publish blogs without
+            having to undergo any validation. Wordy is a mini blog that is built
+            with NodeJS on top of the express framework. Wordy allows anyone,
+            like you, to publish blogs without having to undergo any validation.
+          </p>
+          <a class="btn btn-danger btn-lg" type="button" href="#"> Delete </a>
+        </div>
+      </main>
+
+      <%- include('../partials/footer') %>
+    </div>
+  </body>
+</html>

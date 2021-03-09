@@ -96,6 +96,7 @@ MODULE 17
 • Form Handling in Express
 • Posting Blogs to Wordy
 • Getting Blogs from Wordy
+• Basics of API and Updating Blogs in Wordy
 • Basics of API and Deleting Blogs from Wordy
 MODULE 18
 • Express Router

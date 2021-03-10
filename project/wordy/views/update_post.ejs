@@ -76,7 +76,7 @@
           content: content,
         };
 
-        const request = await fetch(`/update_post/${postId}`, {
+        const request = await fetch(`/posts/update_post/${postId}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',

@@ -16,7 +16,7 @@ MODULE 1
 - Arrays
 - JSON
 
-  MODULE 2
+MODULE 2
 
 - Conditional Statements
 - Loops

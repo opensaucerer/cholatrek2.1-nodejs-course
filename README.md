@@ -7,6 +7,7 @@
 **The training is for 6 weeks and is divided into Modules packed with great content. This repository contains the code for each Module and necessary course materials.**
 
 WEEK 1
+
 A Brief Introduction to JavaScript
 MODULE 1
 • Variables and Data Types
@@ -16,6 +17,7 @@ MODULE 2
 • Conditional Statements
 • Loops
 • Functions
+
 HTTP: Understanding the Foundations
 MODULE 3
 • Web Clients and Servers

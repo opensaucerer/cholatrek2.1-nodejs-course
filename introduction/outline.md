@@ -37,6 +37,7 @@ MODULE 6
 • FS Module
 MODULE 7
 • HTTP Module
+• Promise-based FS
 • Stream
 • Events and Event Loop
 NPM: Node Package Manager

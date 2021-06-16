@@ -16,3 +16,6 @@
 
 // npm init (step by step, press enter to skip)
 // npm init -y (everything gets set to default)
+const _ = require('lodash');
+
+console.log(_.flattenDeep([1, [2, [3, 4, 7]], 6]));

@@ -3,10 +3,15 @@
 
 // local dependency - use it only in your current project
 // npm i <packageName>
+// npm install <packageName>
 
 // global dependency - use it in any project
 // npm install -g <packageName>
-// sudo install -g <pacakageName>
+// sudo install -g <pacakageName> (MAC)
+
+// Dev dependency - used only in development
+// npm install <packageName> -D
+// npm install <packageName> --save-dev
 
 // To remove a package from your project
 // npm uninstall <packageName>
@@ -16,6 +21,5 @@
 
 // npm init (step by step, press enter to skip)
 // npm init -y (everything gets set to default)
-const _ = require('lodash');
 
-console.log(_.flattenDeep([1, [2, [3, 4, 7]], 6]));
+console.log('CHANGING STATE');

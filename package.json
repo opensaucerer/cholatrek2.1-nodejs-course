@@ -1,0 +1,27 @@
+{
+  "name": "Training",
+  "version": "1.0.0",
+  "description": "**Cholatrek Cohort 2.1 is an online training ran by the team at Cholatrek Training Institute Programmes to train interested minds in the art of software development using modern technologies.**",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./module8/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samperfect/cholatrek2.1-nodejs-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samperfect/cholatrek2.1-nodejs-course/issues"
+  },
+  "homepage": "https://github.com/Samperfect/cholatrek2.1-nodejs-course#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "**Cholatrek Cohort 2.1 is an online training ran by the team at Cholatrek Training Institute Programmes to train interested minds in the art of software development using modern technologies.**",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./module10/app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",

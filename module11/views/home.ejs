@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head') %>
+  </head>
+  <body class="container">
+    <header><%- include('./partials/header') %></header>
+
+    <main>
+      <div class="jumbotron">
+        <h1>
+          This is
+          <span
+            ><%= adjective[Math.floor(Math.random() * adjective.length)]
+            %></span
+          >!
+        </h1>
+        <p>Welcome to templating using EJS</p>
+        <div class="d-flex flex-row">
+          <% blog.forEach(blog=>{ %>
+
+          <div class="col">
+            <h5><strong>Title: </strong><%= blog.title %></h5>
+            <p><strong>Author: </strong><%= blog.author %></p>
+            <p><%= blog.content %></p>
+          </div>
+
+          <% }) %>
+        </div>
+      </div>
+    </main>
+
+    <footer><%- include('./partials/footer') %></footer>
+  </body>
+</html>

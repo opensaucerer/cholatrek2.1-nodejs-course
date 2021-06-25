@@ -15,15 +15,16 @@
 
       <main class="post">
         <div class="container">
-          <form action="/new_post" method="post">
+          <form id="form" data-id="<%= post._id %>">
             <div class="mb-3">
               <label for="title" class="form-label">Title</label>
               <input
-                required
                 type="text"
                 class="form-control"
+                required="true"
                 id="title"
                 name="title"
+                value="<%= post.title %>"
               />
             </div>
             <div class="mb-3">
@@ -31,9 +32,10 @@
               <input
                 type="text"
                 class="form-control"
+                required="true"
                 id="snippet"
-                required
                 name="snippet"
+                value="<%= post.snippet %>"
               />
             </div>
             <div class="mb-3">
@@ -41,19 +43,55 @@
               <textarea
                 name="content"
                 class="form-control"
+                required="true"
                 id="content"
                 rows="3"
-                required
-              ></textarea>
+              >
+<%= post.content %> </textarea
+              >
             </div>
-            <button class="btn btn-lg btn-primary" type="submit">
-              Publish
-            </button>
+            <button class="btn btn-lg btn-primary" type="submit">Update</button>
           </form>
         </div>
       </main>
 
       <%- include('../partials/footer') %>
     </div>
+
+    <script>
+      const form = document.querySelector('#form');
+      const postId = form.dataset.id;
+
+      form.onsubmit = async function (event) {
+        event.preventDefault();
+
+        //getting the post data
+        const title = document.querySelector('#title').value;
+        const snippet = document.querySelector('#snippet').value;
+        const content = document.querySelector('#content').value;
+
+        const postData = {
+          title: title,
+          snippet: snippet,
+          content: content,
+        };
+
+        const request = await fetch(`/update_post/${postId}`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(postData),
+        });
+
+        const response = await request.json();
+
+        if (response.status === true) {
+          window.location.href = response.redirect;
+        } else {
+          alert(response.error);
+        }
+      };
+    </script>
   </body>
 </html>

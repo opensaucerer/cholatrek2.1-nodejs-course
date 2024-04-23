@@ -5,8 +5,7 @@ const { Post } = require('./models/posts');
 // instantiating the application
 const app = express();
 
-dbURI =
-  'mongodb+srv://TestUser:testtest@samperfect.fn35f.mongodb.net/wordy?retryWrites=true&w=majority';
+dbURI = process.env.MONGODB_URI;
 
 mongoose
   .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
